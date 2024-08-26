@@ -7,3 +7,12 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+until Publication.count == 2 do
+    Publication.create(
+      title: Faker::Book.title,
+      description: Faker::Lorem.paragraph_by_chars(number: 200, supplemental: false),
+      when_went: Faker::Date.between(from: 10.years.ago, to: Date.today)
+    )
+  end
+  
