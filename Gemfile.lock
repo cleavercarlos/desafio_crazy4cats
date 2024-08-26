@@ -108,6 +108,8 @@ GEM
     drb (2.2.1)
     error_highlight (0.6.0)
     erubi (1.13.0)
+    esbuild-rails (0.1.4)
+      rails (>= 6.0.0)
     faker (3.4.2)
       i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
@@ -312,6 +314,7 @@ DEPENDENCIES
   debug
   devise (~> 4.9)
   error_highlight (>= 0.4.0)
+  esbuild-rails (~> 0.1.4)
   faker (~> 3.4)
   jbuilder
   jsbundling-rails

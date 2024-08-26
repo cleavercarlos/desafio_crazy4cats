@@ -62,3 +62,5 @@ end
 gem "devise", "~> 4.9"
 
 gem "faker", "~> 3.4"
+
+gem "esbuild-rails", "~> 0.1.4"
